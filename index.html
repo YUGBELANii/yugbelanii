@@ -1,235 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yug Belani</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
-
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta name="description" content="Yug Belani is a frontend-focused developer building responsive web and mobile products with React and modern UI technologies.">
+  <meta property="og:title" content="Yug Belani — Developer & Builder">
+  <meta property="og:description" content="Thoughtful interfaces, useful products, and a curiosity for how things work.">
+  <meta property="og:type" content="website">
+  <title>Yug Belani — Developer &amp; Builder</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231d35d8'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='38' fill='white'%3EY%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="header">
-     <h1>Yug Belani</h1>
-     <h2>WebApp Developer</h2>
-     <h3>Lives by creating web and apps </h3>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Yug Belani, home">YB<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#skills">Toolkit</a><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DEVELOPER · BUILDER · CURIOUS HUMAN</p>
+        <h1 id="hero-title">Hi, I’m Yug.<br><span>I make the web</span><br>work for people.</h1>
+        <p class="hero-intro">Frontend-focused developer building useful web and mobile experiences, one thoughtful detail at a time.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-socials" aria-label="Social links"><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://linkedin.com/in/yugbelani" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract illustration of a colorful browser window" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-spark spark-one">✳</div><div class="art-spark spark-two">✳</div>
+        <div class="browser-card"><div class="browser-top"><i></i><i></i><i></i><span>good-things.html</span></div><div class="browser-content"><span class="code-line short"></span><span class="code-line medium"></span><div class="art-face"><b>Y</b><span>BUILD<br>WITH CARE</span></div><span class="code-line long"></span><span class="code-line medium"></span></div></div>
+        <div class="art-sticker">MAKE<br>IT USEFUL<span>↗</span></div><div class="art-caption">A little code,<br>a lot of curiosity.</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><b aria-hidden="true">↓</b></a>
     </section>
-    
-  
 
-    <section id="contact">
+    <section class="about section-wrap" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / A LITTLE ABOUT ME</span><span class="label-line"></span></div>
+      <div class="about-grid"><h2 id="about-title">Curiosity is<br>my <span>starting point.</span></h2><div class="about-copy"><p class="lead">I’m a frontend-focused developer who enjoys turning ideas into clear, useful digital experiences.</p><p>I work across responsive web and mobile interfaces, with React and JavaScript at the center of my toolkit. I care about the details people feel: a layout that makes sense, an interaction that’s easy to understand, and software that solves a real problem.</p><p>Alongside frontend work, I’m growing my backend and systems skills through hands-on projects. I like learning by building, asking better questions, and making the next version a little more thoughtful.</p><div class="about-note"><span class="note-mark">✳</span><span>Build with purpose.<br>Keep learning. Stay curious.</span></div></div></div>
+    </section>
 
-        <p>I’m Yug Belani, a frontend-focused developer skilled in building responsive web and mobile applications with React, JavaScript, and modern UI technologies. I focus on creating clean user experiences, scalable interfaces, and practical products while continuously improving my backend and system development skills through real-world projects.
-</p>
-<div id="socials">
-  <a href="https://github.com/YugBelani" target="_blank">
-    <i class="fa-brands fa-github"></i>
-  </a>
-
-  <a href="https://linkedin.com/in/yugbelani" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-  </a> 
-   <a href="https://instagram.com/codersaheb" target="_blank">
-    <i class="fa-brands fa-instagram"></i>
-  </a>
-
-  <a href="mailto:yugbelani984@gmail.com">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
-</div>
-    </section> 
-    
-<section id="projects">
-  <h2>Featured Projects</h2>
-
-  <div class="project-grid">
-
-        <!-- <div class="project-card">
-      <h3>SrcatchOffer</h3>
-
-      <p>
-        ScratchCard Web is an interactive web application that simulates 
-        real-world scratch cards, allowing users to uncover hidden content
-        through a smooth and engaging scratch-to-reveal interface.
-      </p>
-
-      <div class="tech-stack">
-        <span>React</span>
-        <span>Flask</span>
-        <span>Supabase</span>
-        <span>Python</span>
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="section-wrap work-inner">
+        <div class="section-label"><span>02 / SELECTED WORK</span><span class="label-line"></span><span class="section-count">04 PROJECTS</span></div>
+        <div class="work-heading"><h2 id="work-title">Things I’ve<br><span>been building.</span></h2><p>Small collection of practical projects, each built to explore an idea and make something useful.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-owl"><div class="project-visual owl-visual" aria-hidden="true"><div class="visual-label">MENU / ORDER / ENJOY</div><div class="food-plate"><span>OWLZZ<br><small>CAFE</small></span></div><div class="visual-chip">FRESH<br>&amp; READY</div></div><div class="project-meta"><span>01 — LIVE PRODUCT</span><span>WEB / COMMERCE</span></div><h3>Owlz Corner</h3><p>A digital menu and ordering experience for Owlzz Cafe, with live menu management, category browsing, search, cart, delivery calculation, WhatsApp checkout, customer reviews, and a mystery reward feature.</p><div class="tech-stack"><span>HTML</span><span>CSS</span><span>Supabase</span></div><div class="project-links"><a href="https://menu-4-owls.vercel.app/" target="_blank" rel="noreferrer">Visit live site <span>↗</span></a><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">Source on GitHub <span>↗</span></a></div></article>
+          <article class="project-card project-rakt"><div class="project-visual rakt-visual" aria-hidden="true"><div class="rakt-cross">+</div><div class="rakt-type">RAKT<br><b>REKHA</b></div><div class="rakt-ring"></div><div class="visual-label">A COMMUNITY CONNECTION</div></div><div class="project-meta"><span>02 — LIVE PRODUCT</span><span>MOBILE FIRST</span></div><h3>Rakt Rekha</h3><p>A blood donation platform focused on connecting verified donors, receivers, and blood banks through a clean, responsive mobile-first experience.</p><div class="tech-stack"><span>React Native</span><span>Firebase</span><span>Expo</span></div><div class="project-links"><a href="https://raktrekha.vercel.app/" target="_blank" rel="noreferrer">Visit live site <span>↗</span></a><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">Source on GitHub <span>↗</span></a></div></article>
+          <article class="project-card project-console"><div class="project-visual console-visual" aria-hidden="true"><div class="console-window"><div class="console-bar"><i></i><i></i><i></i></div><div><span class="prompt">&gt;</span> console.log(<b>"hello, world"</b>)</div><div class="console-output">hello, world <span>▍</span></div><div class="console-float">TRY<br>THINGS</div></div><div class="visual-label">LEARN BY DOING</div></div><div class="project-meta"><span>03 — LIVE PRODUCT</span><span>LEARNING TOOL</span></div><h3>ConsolePlay</h3><p>A JavaScript console learning environment designed to help users practice and experiment with JavaScript directly in the browser.</p><div class="tech-stack"><span>React</span><span>JavaScript</span><span>Tailwind</span><span>Vercel</span></div><div class="project-links"><a href="https://consoleplay.vercel.app/" target="_blank" rel="noreferrer">Visit live site <span>↗</span></a><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">Source on GitHub <span>↗</span></a></div></article>
+          <article class="project-card project-more"><div class="more-mark" aria-hidden="true">Y<span>+</span></div><div><span class="more-kicker">MORE EXPERIMENTS &amp; BUILDS</span><h3>Always making<br>the next thing.</h3><p>Browse my GitHub for more projects, experiments, and work in progress.</p><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a></div></article>
+        </div>
       </div>
+    </section>
 
-      <div class="project-links">
-        <a href="https://yashscratchcard2.vercel.app/">Live Demo</a>
-        <a href="https://github.com/YugBelani">GitHub</a>
-      </div> 
-    </div> -->
+    <section class="toolkit section-wrap" id="skills" aria-labelledby="skills-title">
+      <div class="section-label"><span>03 / MY TOOLKIT</span><span class="label-line"></span></div>
+      <div class="toolkit-heading"><h2 id="skills-title">Tools for<br><span>making things.</span></h2><p>Technologies I’ve used across my projects and continue to explore.</p></div>
+      <div class="toolkit-grid"><article class="tool-card tool-blue"><span class="tool-index">01</span><span class="tool-icon" aria-hidden="true">&lt;/&gt;</span><h3>Frontend</h3><p>Interfaces that feel clear, responsive, and easy to use.</p><div class="skill-tags"><span>React</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Tailwind CSS</span></div></article><article class="tool-card tool-yellow"><span class="tool-index">02</span><span class="tool-icon" aria-hidden="true">⌘</span><h3>Backend &amp; data</h3><p>Building blocks for connected, practical products.</p><div class="skill-tags"><span>Flask</span><span>Firebase</span><span>Supabase</span><span>Python</span></div></article><article class="tool-card tool-green"><span class="tool-index">03</span><span class="tool-icon" aria-hidden="true">✳</span><h3>Tools &amp; platforms</h3><p>Tools I use to design, develop, and ship projects.</p><div class="skill-tags"><span>GitHub</span><span>Figma</span><span>VS Code</span><span>Vercel</span><span>Expo</span></div></article></div>
+    </section>
 
+    <section class="journey section-wrap" aria-labelledby="journey-title"><div class="section-label"><span>04 / THE JOURNEY</span><span class="label-line"></span></div><div class="journey-grid"><h2 id="journey-title">Learn by<br><span>making.</span></h2><div class="journey-content"><p class="lead">My path so far has been project-led: follow a question, build a useful answer, and learn what the next step should be.</p><div class="journey-item"><span class="journey-dot"></span><div><span class="journey-tag">WEB PRODUCT</span><h3>Owlz Corner</h3><p>Built a responsive cafe menu and ordering flow with Supabase-backed menu management.</p></div></div><div class="journey-item"><span class="journey-dot"></span><div><span class="journey-tag">MOBILE FIRST</span><h3>Rakt Rekha</h3><p>Explored a mobile-first platform connecting blood donors, receivers, and blood banks.</p></div></div><div class="journey-item"><span class="journey-dot"></span><div><span class="journey-tag">LEARNING BY BUILDING</span><h3>ConsolePlay</h3><p>Created a browser-based space for practicing JavaScript directly in the console.</p></div></div></div></div></section>
 
-    <!-- <div class="project-card">
-      <h3>Quizify</h3>
-
-      <p>
-        A dynamic quiz engine capable of loading PDF-based questions,
-        shuffling quizzes, and generating interactive quiz sessions using
-        React and Flask.
-      </p>
-
-      <div class="tech-stack">
-        <span>React</span>
-        <span>Flask</span>
-        <span>Python</span>
-      </div>
-
-      <div class="project-links">
-        <a href="#">Live Soon..</a>
-        <a href="https://github.com/YugBelani">GitHub</a>
-      </div> 
-    </div> -->
-
-    <div class="project-card">
-      <h3>Owlz Corner</h3>
-
-      <p>
-       Owlzz Menu — Live Restaurant Ordering Website
-Built a responsive digital menu and ordering system for Owlzz Cafe, featuring real-time menu management with Supabase, category-based browsing, search, cart functionality, delivery calculation, WhatsApp checkout, customer reviews, and a ₹250+ mystery reward system.
-      </p>
-
-      <div class="tech-stack">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>SUPABASE</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://menu-4-owls.vercel.app/">Live Demo</a>
-        <a href="https://github.com/YugBelani">GitHub</a>
-      </div>
-    </div>
-
-
-    <div class="project-card">
-      <h3>Rakt Rekha</h3>
-
-      <p>
-        A blood donation platform focused on connecting verified donors,
-        receivers, and blood banks through a clean and responsive mobile-first
-        experience.
-      </p>
-
-      <div class="tech-stack">
-        <span>React Native</span>
-        <span>Firebase</span>
-        <span>Expo</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://raktrekha.vercel.app/">Live Demo</a>
-        <a href="https://github.com/YugBelani">GitHub</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <h3>ConsolePlay</h3>
-
-      <p>
-        A JavaScript console learning environment designed to help users
-        practice and experiment with JavaScript directly in the browser.
-      </p>
-
-      <div class="tech-stack">
-        <span>React</span>
-        <span>JavaScript</span>
-        <span>Tailwind</span>
-        <span>Vercel</span>
-      </div>
-
-      <div class="project-links">
-        <a href="https://consoleplay.vercel.app/">Live Demo</a>
-        <a href="https://github.com/YugBelani">GitHub</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<section id="skills">
-  <h2>Skills</h2>
-
-  <div class="skills-container">
-
-    <div class="skill-category">
-      <!-- <h3>Frontend</h3>
-
-      <div class="skill-tags">
-        <span>React</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Tailwind CSS</span>
-      </div>
-    </div>
-
-    <div class="skill-category">
-      <h3>Backend</h3>
-
-      <div class="skill-tags">
-        <span>Flask</span>
-        <span>Firebase</span>
-        <span>Python</span>
-      </div>
-    </div>
-
-    <div class="skill-category">
-      <h3>Tools</h3>
-
-      <div class="skill-tags">
-        <span>GitHub</span>
-        <span>Figma</span>
-        <span>VS Code</span>
-        <span>Vercel</span>
-      </div>
-    </div> -->
- 
-     <div class="skill-tags">
-        <span>React</span>
-        <span>JavaScript</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Tailwind CSS</span>
-         <span>Flask</span>
-        <span>Firebase</span>
-        <span>Python</span>
-      </div> 
-          <div class="skill-category">
-      <h3>Tools</h3>
-
-      <div class="skill-tags">
-        <span>GitHub</span>
-        <span>Figma</span>
-        <span>VS Code</span>
-        <span>Vercel</span>
-      </div>
-    </div> 
-  </div>
-</section>
-
-<section id="final-cta">
-  <h2>Let’s Build Something Meaningful</h2>
-
-  <p>
-    Open to collaborations, freelance opportunities,
-    and impactful product development.
-  </p>
-
-  <a href="mailto:yugbelani984@gmail.com">
-    Contact Me
-  </a>
-</section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="contact-inner section-wrap"><div class="section-label"><span>05 / SAY HELLO</span><span class="label-line"></span></div><div class="contact-layout"><div><p class="eyebrow">HAVE AN IDEA?</p><h2 id="contact-title">Let’s build<br><span>something useful.</span></h2></div><div class="contact-copy"><p>I’m open to collaborations, freelance opportunities, and impactful product development. Have a project in mind? I’d love to hear about it.</p><a class="button button-light" href="mailto:yugbelani984@gmail.com">Email me <span aria-hidden="true">↗</span></a><div class="contact-socials"><a href="https://github.com/YugBelani" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/yugbelani" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://instagram.com/codersaheb" target="_blank" rel="noreferrer">Instagram ↗</a></div></div></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#home">YB<span>.</span></a><span>Made with curiosity by Yug Belani</span><a href="#home">Back to top ↑</a></footer>
+  <script>
+    const menuButton = document.querySelector('.menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    menuButton.addEventListener('click', () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Open navigation' : 'Close navigation');
+      siteNav.classList.toggle('is-open', !isOpen);
+    });
+    siteNav.addEventListener('click', (event) => {
+      if (event.target.closest('a')) {
+        menuButton.setAttribute('aria-expanded', 'false');
+        menuButton.setAttribute('aria-label', 'Open navigation');
+        siteNav.classList.remove('is-open');
+      }
+    });
+  </script>
 </body>
 </html>
